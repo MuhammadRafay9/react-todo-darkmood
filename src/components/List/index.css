@@ -1,0 +1,102 @@
+.List
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+.wrap.lit
+{
+    box-shadow: 1px 1px 10px 4px black;
+}
+
+.wrap.dark
+{
+    box-shadow: 1px 1px 10px 4px white;
+}
+
+.lit {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+
+
+.List .container .wrap
+{
+    display: inline-block;
+    border: 1px solid black;
+
+    width: 40%;
+    max-width: 40%;
+    min-width: 40%;
+
+
+}
+
+.List .container .wrap ul 
+{
+    list-style: none;
+}
+.List .container .wrap .ulDiv 
+{
+    height: 65vh;
+    max-height: 65vh;
+    min-height: 65vh;
+    overflow-y: scroll;
+}
+
+.List ul 
+{
+    list-style: none;
+}
+
+.List .container .wrap ul  .mainSpan
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.List .container .wrap ul  .mainSpan .spanText
+{
+    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
+    word-break: break-all;
+}
+
+.List .container .wrap ul .mainSpan .spanBtn
+{
+    /* margin-left: 55%; */
+    width: 30%;
+}
+.btndelete
+{
+    margin-left: 2%;
+}
+.submit
+{
+    margin-left: 2%;
+}
+@media screen and (max-width: 480px) {
+    .List .container .wrap
+{
+    display: inline-block;
+    border: 1px solid black;
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+
+}
+  }
